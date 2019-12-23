@@ -1,0 +1,6 @@
+#API Credentials
+.env
+configs/google_access
+
+#Standard
+node_modules

@@ -1,0 +1,20 @@
+{
+  "name": "node-sheets-engine",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Spencer Marx",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spencermarx/archlint.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "googleapis": "^39.2.0"
+  }
+}
