@@ -1,3 +1,3 @@
 module.exports = {
-  spreadsheetId: process.env.SPREADSHEET_ID,
+  spreadsheetId: `${process.env.SPREADSHEET_ID}`,
 }
