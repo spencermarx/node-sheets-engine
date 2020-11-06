@@ -13,6 +13,8 @@ module.exports = {
   },
   "rules": {
     "jsx-a11y/href-no-hash": ["off"],
+    "no-console": ["off"],
+    "consistent-return": ["off"],
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
     "max-len": [
       "warn",
