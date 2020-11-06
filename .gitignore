@@ -4,3 +4,8 @@ configs/google_access
 
 #Standard
 node_modules
+
+# Generated Files
+generated-files/*.json
+generated-files/*.js
+generated-files/*.txt
