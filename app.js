@@ -3,8 +3,11 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 const fs = require('fs');
+const path = require('path');
 const utils = require('./lib/helpers/index.helper');
 const mainTask = require('./lib/tasks/main.task');
+
+global.appRoot = path.resolve(__dirname);
 
 const main = async () => {
   try {
